@@ -1,7 +1,8 @@
-﻿Module Module1
+﻿
+Module Module1
 
     Sub Main()
-        Dim dq As Deque = New Deque()
+        Dim dq As deque = New deque()
 
         dq.inserFront("A")
         dq.print()
@@ -30,3 +31,4 @@
     End Sub
 
 End Module
+
